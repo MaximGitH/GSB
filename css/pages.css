@@ -1,0 +1,169 @@
+/*** V_Accueil */
+
+#accueil{
+    position: relative;
+    float:right;
+    margin-top: -115px;
+    margin-right: 60px;
+    font-size: 14px;
+}
+
+
+/**************/
+
+
+
+/**** Renseigner la fiche de frais *****/
+#Renseignement_fiche { /* Body */
+    background: linear-gradient(50deg, #50c292, #81e7d9, #58a8dd); /* Background / arrière-plan */
+	background-size: 350% 350%;
+	animation: dégradé 15s ease infinite;
+    -webkit-animation: dégradé 15s ease infinite;
+    -moz-animation: dégradé 15s ease infinite;
+}
+
+.titre_renseignement_fiche {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    border-color: black;
+    background-color: rgb(65, 89, 226);
+    color: rgb(255, 255, 255);
+}
+
+
+/***************************************/
+
+/*** Afficher mes fiches de frais : Affiche_frais ***/
+
+#Affiche_fiche { /* body */
+    background: linear-gradient(-150deg, #80dfcf, #819ce7, #76b9e6); /* Background / arrière-plan */
+	background-size: 350% 350%;
+	animation: dégradé 15s ease infinite;
+    -webkit-animation: dégradé 15s ease infinite;
+    -moz-animation: dégradé 15s ease infinite;
+}
+
+.titre_fiche_frais { /* Titre "Mes fiches de frais */
+    text-align: center;
+    text-decoration: underline;
+    font-size: 26px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+.bloc_affiche_fiche { /* DIV bloc du haut d'affiche fiche */
+    margin-top: 80px;
+    text-align: center;
+}
+
+.sélection_mois { /* Titre sélection du mois */
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.mot_mois { /* Mot du mois */
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.boutons_affiche_fiche { /* DIV Boutons Valider et annuler */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bouton_valider_affiche_fiche { /* Bouton valider */
+    margin-right: 15px;
+}
+
+.bouton_annuler_affiche_fiche { /* Bouton annuler */
+    margin-left: 15px;
+}
+
+.bouton_valider_affiche_fiche, .bouton_annuler_affiche_fiche { /* Bouton valider et bouton annuler */
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 7px 5px 6px black;
+    background-color: rgb(191, 222, 226);
+    transition: 0.4s;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+}
+
+.bouton_valider_affiche_fiche:hover, .bouton_annuler_affiche_fiche:hover { /* Bouton valider et bouton annuler au survol de la souris */
+    box-shadow: none;
+    transform: scale(1.1);
+    background-color: rgb(44, 44, 168);
+    color: white;
+    font-size: 12px;
+}
+
+/***************************************************/
+
+/************** Etat Frais *****************/
+
+.Etat_frais { /* Toute la DIV regroupant les tableaux + les titres etc... */
+    text-align: center;
+    border-style: solid;
+}
+
+.titre_Etat_frais_mois_et_année {
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.titre_éléments_forfaitisés {
+    font-size: 19px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.Eléments_forfaitisés_tableau {
+    margin: auto;
+    text-align: center;
+}
+
+/**** Page de déconnexion : v_deConnexion.php *****/
+
+#page_déconnexion { /* Body */
+    background: linear-gradient(-100deg, #8786b3, #69b3e4, #5febdf, #45e4e4); /* Background / arrière-plan */
+	background-size: 350% 350%;
+	animation: dégradé 15s ease infinite;
+    -webkit-animation: dégradé 15s ease infinite;
+    -moz-animation: dégradé 15s ease infinite;
+}
+/*************/
+
+
+/* Animation du background */
+@keyframes dégradé {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/***********************************/
+
+.alert { /* Textes afficher lors de la déconnexion */
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 250px;
+}
+
+.alert a { /* Lien "cliquez-ici" afficher lors de la déconnexion */
+    color: blue;
+}
+/***************************************************/
