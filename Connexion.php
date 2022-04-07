@@ -69,14 +69,14 @@ if(isset($_POST['captcha'])){
         }
         else{
             $_SESSION['l&mI'] = 'oui';
-                include("Page_connexion.php");
+                include(" index.php");
                 
             
         }
         
     } else {
         $_SESSION['CI'] = 'oui';
-            include("Page_connexion.php");
+            include(" index.php");
     }
 }
 else{

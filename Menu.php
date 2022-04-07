@@ -5,7 +5,7 @@ if(!isset($_SESSION)){
 ?>
 <html>
 <head>
-    <meta http-equiv="refresh" content="120;url=Page_connexion.php" />
+    <meta http-equiv="refresh" content="120;url= index.php" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,7 +52,7 @@ if(!isset($_SESSION)){
                    }
                    ?>
                     
-                    <a href = 'Page_connexion.php' class=''><img id="logo4" class="mini-logo">Déconnexion</a>
+                    <a href = ' index.php' class=''><img id="logo4" class="mini-logo">Déconnexion</a>
                     <?php 
                     }
                     else{
